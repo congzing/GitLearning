@@ -103,6 +103,7 @@ hoặc clone 1 repo:
 - Bước 3: đẩy các xác nhận lên repo trung tâm
 
 **git pull**
+
 **git push origin master**
 - Bước 4: quản lý Conflict
 
