@@ -59,7 +59,57 @@ Mỗi commit đều có yêu cầu phải có commit message, để giải thíc
 - [SourceTree (Windows,Unix,MacOS)](https://www.sourcetreeapp.com/)
 - [Tower (Windows, MacOS)](https://www.git-tower.com/)
 - ....
-### 2. Các câu lệnh thường dùng với GIT
 
+### 2. Các câu lệnh thường dùng với GIT
+##### a: Create a new local repository
+- **git init**
+
+##### b: Check out a repository
+- Create a working copy of a local repository: **git clone /path/to/repository**
+- For a remote server, use: **git clone username@host:/path/to/repository**
+
+##### c: Add files
+- Add one or more files to staging (index): **git add <filename>**
+- Add one or more files to staging (index): **git add**
+
+##### d: Commit
+- Commit changes to head (but not yet to the remote repository): **git commit -m "Commit message"**
+- Commit any files you've added with git add, and also commit any files you've changed since then: **git commit -a**
+
+##### e: Push
+- Send changes to the master branch of your remote repository:
+**git push origin master**
+
+##### f: Status
+- List the files you've changed and those you still need to add or commit:	**git status**
+
+Và còn rất nhiều lệnh khác, có thể tham khảo [đây](https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html)
 ### 3. Quy trình làm việc với GIT
-### 4. Các tài liệu nên tham khảo thêm 
+- Bước 1: Khởi tạo 1 repo
+
+**git init**
+
+hoặc clone 1 repo:
+
+**git clone ssh://user@host/path/to/repo.git**
+- Bước 2: Tạo thay đổi và xác nhận
+
+**git status # View the state of the repo**
+
+**git add <some-file> # Stage a file**
+
+**git commit # Commit a file</some-file>**
+
+- Bước 3: đẩy các xác nhận lên repo trung tâm
+
+**git pull**
+**git push origin master**
+- Bước 4: quản lý Conflict
+
+
+### 4. Các tài liệu nên tham khảo thêm
+- Hướng dẫn về Git cơ bản cho người mới bắt đầu: Đọc ở [đây](https://backlog.com/git-tutorial/vn/intro/intro1_1.html) (Tiếng Việt), chú ý đọc cả phần Nhập môn và Phát triển.
+- Sổ tay về Git: Đọc ở [đây](http://hnq90.github.io/git-guide/index.vi.html) hoặc [đây](https://learnxinyminutes.com/docs/vi-vn/git-vi/) (Tiếng Việt)
+- Thực hành những thao tác căn bản với Git online: [Try Git](http://try.github.io/) (Tiếng Anh)
+- Những lệnh hay dùng: [Git Cheatsheet](https://www.git-tower.com/blog/git-cheat-sheet/) (Tiếng Anh)
+- Ebook hướng dẫn Git từ căn bản đến nâng cao: [Tiếng Anh](https://git-scm.com/book/en/v2) (updated 2014), [Tiếng Việt](https://git-scm.com/book/vi/v1) (updated 2009)
