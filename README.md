@@ -55,12 +55,12 @@ Mỗi commit đều có yêu cầu phải có commit message, để giải thíc
 - Trộn (Merge)
 - Xung đột (Conflict)
 
-### 3. Các GIT GUI client
+### 2. Các GIT GUI client
 - [SourceTree (Windows,Unix,MacOS)](https://www.sourcetreeapp.com/)
 - [Tower (Windows, MacOS)](https://www.git-tower.com/)
 - ....
 
-### 2. Các câu lệnh thường dùng với GIT
+### 3. Các câu lệnh thường dùng với GIT
 ##### a: Create a new local repository
 - **git init**
 
@@ -84,7 +84,7 @@ Mỗi commit đều có yêu cầu phải có commit message, để giải thíc
 - List the files you've changed and those you still need to add or commit:	**git status**
 
 Và còn rất nhiều lệnh khác, có thể tham khảo [đây](https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html)
-### 3. Quy trình làm việc với GIT
+### 4. Quy trình làm việc với GIT
 - Bước 1: Khởi tạo 1 repo
 
 **git init**
@@ -108,7 +108,7 @@ hoặc clone 1 repo:
 - Bước 4: quản lý Conflict
 
 
-### 4. Các tài liệu nên tham khảo thêm
+### 5. Các tài liệu nên tham khảo thêm
 - Hướng dẫn về Git cơ bản cho người mới bắt đầu: Đọc ở [đây](https://backlog.com/git-tutorial/vn/intro/intro1_1.html) (Tiếng Việt), chú ý đọc cả phần Nhập môn và Phát triển.
 - Sổ tay về Git: Đọc ở [đây](http://hnq90.github.io/git-guide/index.vi.html) hoặc [đây](https://learnxinyminutes.com/docs/vi-vn/git-vi/) (Tiếng Việt)
 - Thực hành những thao tác căn bản với Git online: [Try Git](http://try.github.io/) (Tiếng Anh)
